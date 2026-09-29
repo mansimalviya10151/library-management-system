@@ -1,18 +1,18 @@
 # Statement of Purpose & Scope
 
 ## Problem Statement
-Traditional library record-keeping relies heavily on manual entry, leading to inefficiencies in tracking book availability, borrower records, and due dates. The Library Management System solves this by offering a lightweight CLI-based system that manages inventory and tracks borrowings with fine calculations.
+Keeping library records manually using paper registers leads to mistakes—it makes tracking available books, active borrowers, and overdue dates inefficient. I created this Library Management System as a lightweight CLI application to automate inventory management, track checkouts, and calculate late fines automatically.
 
 ## Scope of Project
-- Full CRUD management of book records and user profiles.
-- Automated calculation of due dates and overdue fines.
-- Data persistence using structured JSON files.
+- Complete CRUD operations for book inventory and student/user accounts.
+- Automated calculation of 14-day return due dates and late penalties (₹5/day).
+- Persistent state management using standard JSON files.
 
 ## Target Users
-- Library Administrators managing library stock.
-- Library Members borrowing and returning resources.
+- Library Administrators / Staff: Managing stock, adding books, and monitoring records.
+- Students / Members: Browsing available books, checking out items, and making returns.
 
-## High-Level Features
-- Add and list library books.
-- Register users with roles (Admin/Member).
-- Issue books and handle returns with automated fine calculation.
+## Key Features
+- Add new titles and display the full book catalog.
+- Register user accounts with distinct roles (Admin vs. Member).
+- Borrow and return books with real-time fine calculation.

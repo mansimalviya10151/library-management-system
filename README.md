@@ -1,22 +1,21 @@
 # Library & Resource Management System
 
-A Python Command Line Interface (CLI) application for managing library books, user memberships, borrowings, and late return fines.
+A lightweight Python CLI tool for managing book catalogs, user accounts, checkout transactions, and overdue fee calculations.
 
 ## Features
-- **Book Management**: Add, store, and view books with category tags.
-- **User Management**: Register library members and administrators.
-- **Transaction Engine**: Handle book issue/return with due date assignment.
-- **Fine Calculation**: Automatically calculate overdue fines for late returns.
-- **Data Persistence**: Stores data securely in standard JSON format.
+- **Book Cataloging**: Add, list, and search books with title, author, and category details.
+- **User Roles**: Account registration for Students and Library Administrators.
+- **Checkout Management**: Process checkouts with automatic 14-day loan periods.
+- **Overdue Fines**: Automatically calculate late penalties at ₹5 per day for late returns.
+- **JSON Storage**: Persistent data storage across sessions without requiring external databases.
 
-## Technologies Used
+## Tech Stack
 - Python 3.8+
-- JSON (Persistence)
-- Python Standard Library (`datetime`, `os`, `sys`, `json`)
+- Built-in Libraries: `datetime`, `json`, `os`, `sys`
 
-## How to Install & Run
+## Quick Start Guide
 
-1. **Clone the Repository**
-   ```bash
-   git clone [https://github.com/](https://github.com/)/library-management-system.git
-   cd library-management-system
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/mansimalviya10151/library-management-system.git](https://github.com/mansimalviya10151/library-management-system.git)
+cd library-management-system
